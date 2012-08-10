@@ -78,8 +78,8 @@
                     
                     <!-- FORGOT PASSWORD -->
                     <div class="prefix_2 grid_4 alpha omega">
-                        <p><?php echo anchor('account/forgot_password', lang('sign_in_forgot_your_password')); ?><br />
-                        <?php echo sprintf(lang('sign_in_dont_have_account'), anchor('account/sign_up', lang('sign_in_sign_up_now'))); ?></p>
+                        <p><?php echo anchor('account/forgotpassword', lang('sign_in_forgot_your_password')); ?><br />
+                        <?php echo sprintf(lang('sign_in_dont_have_account'), anchor('account/signup', lang('sign_in_sign_up_now'))); ?></p>
                     </div><!-- END forgot-password -->
                     <div class="clear"></div>
 

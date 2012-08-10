@@ -73,7 +73,7 @@
                         <?php echo form_button(array('type' => 'submit', 'class' => 'button', 'content' => lang('sign_up_create_my_account'))); ?>
                     </div>
                     <div class="prefix_2 grid_4 alpha omega">
-                        <p><?php echo lang('sign_up_already_have_account'); ?> <?php echo anchor('account/sign_in', lang('sign_up_sign_in_now')); ?></p>
+                        <p><?php echo lang('sign_up_already_have_account'); ?> <?php echo anchor('account/login', lang('sign_up_sign_in_now')); ?></p>
                     </div><!-- END submit-button -->
                     <div class="clear"></div>
                 
