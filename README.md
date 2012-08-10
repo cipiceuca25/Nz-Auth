@@ -67,7 +67,7 @@ v0.1
 - Reduced filesize from 6MB to 1.6MB
 - Fixed problem with resetting password
 - Tidied a lot of code up
-- Restructed the social linking page
+- Reconstructed the social linking page
 - Optimized the header/footer files
 - Updated to latest Facebook API
 - Updated to latest CI
