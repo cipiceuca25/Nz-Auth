@@ -60,7 +60,7 @@ class CI_Controller {
 		
 		if ($this->authentication->is_signed_in())
 		{
-			$data['account'] = $this->account_model->get_by_id($this->session->userdata('account_id'));
+			$this->data['account'] = $this->account_model->get_by_id($this->session->userdata('account_id'));
 		}
 		
 		log_message('debug', "Controller Class Initialized");
