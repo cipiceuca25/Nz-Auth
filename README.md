@@ -61,6 +61,11 @@ Plugins & Libraries
 Change Log
 ===================================
 
+v0.2
+- Fixed a few incorrect links
+- Optimized the auth code
+- Moved auth checking into the CI_Controller constructor
+
 v0.1
 
 - Renamed a lot of the files
